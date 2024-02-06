@@ -1,0 +1,68 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.sixtyfour-body{
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
+/*colors :
+grey: #c70323
+red: #757479
+black: #1b1b1b
+*/
+
+.screen{
+    background-color: #757479;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center; 
+    border-radius: 10px;
+}
+
+.menu{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    height: 70vh;
+    width: 70vw;
+}
+
+.inputbox{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.input{
+    border-radius: 10px;
+    background-color:#757479;
+    border-color: #1b1b1b;
+    size: 1000px;
+}
+
+.enter{
+    font-family: "Sixtyfour", sans-serif;
+    background-color: #c70323;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color:#8e061d;
+}
+
+.enter-text{
+    color:white;
+}
+
+.enter-text:hover{
+    color:#1b1b1b;
+}
