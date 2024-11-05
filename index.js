@@ -1,10 +1,10 @@
 function addTask() {
-    var taskInput = document.getElementById("todo");
-    var taskText = taskInput.value.trim();
+    const taskInput = document.getElementById("todo");
+    const taskText = taskInput.value.trim();
 
     if (taskText !== "") {
-        var taskList = document.getElementById("taskList");
-        var newTaskItem = document.createElement("li");
+        const taskList = document.getElementById("taskList");
+        const newTaskItem = document.createElement("li");
         newTaskItem.textContent = taskText;
 
         // Apply the 'task-item' class to the created li element
