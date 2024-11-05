@@ -7,12 +7,10 @@ function addTask() {
         const newTaskItem = document.createElement("li");
         newTaskItem.textContent = taskText;
 
-        // Apply the 'task-item' class to the created li element
         newTaskItem.classList.add("task-item");
 
         taskList.appendChild(newTaskItem);
 
-        // Clear the input field
         taskInput.value = "";
     }
 }
